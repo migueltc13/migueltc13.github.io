@@ -65,7 +65,7 @@
 /* Default notice */
 
 .notice {
-  @include notice($dark-gray);
+  @include notice($light-gray);
 }
 
 /* Primary notice */
