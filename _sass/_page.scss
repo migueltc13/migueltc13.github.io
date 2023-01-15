@@ -267,7 +267,7 @@
   margin-bottom: 8px;
   padding: 5px 10px;
   text-decoration: none;
-  border: 1px solid $light-gray;
+  border: 1px solid $dark-gray;
   border-radius: $border-radius;
 
   &:hover {
@@ -296,7 +296,7 @@
 
 .page__comments-form {
   padding: 1em;
-  background: $lighter-gray;
+  background: $darker-gray;
   transition: $global-transition;
 
   &.disabled {
