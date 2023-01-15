@@ -14,7 +14,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Miguel Carvalho's Personal Website"
+title                    : "Miguel's Personal Website"
 title_separator          : "-"
 name                     : &name "Miguel Carvalho"
 description              : &description "Informatics Engineering Student at Minho's University"
