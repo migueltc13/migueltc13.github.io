@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Miguel Carvalho Website"
+title                    : "Miguel Carvalho's Personal Website"
 title_separator          : "-"
 name                     : &name "Miguel Carvalho"
-description              : &description "TODO personal description"
+description              : &description "Informatics Engineering Student at Minho's University"
 url                      : https://migueltc13.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "migueltc13/migueltc13.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Miguel Carvalho"
   avatar           : "profile.png"
-  bio              : "TODO My biography for the left-hand sidebar"
+  bio              : "Informatics Engineering Student at Minho's University"
   location         : "Porto, Portugal"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
