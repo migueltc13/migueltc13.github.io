@@ -39,6 +39,7 @@
   {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
 {% endif %}
 
+<meta name="description" content="Welcome to {{ site.title }}, where you will find information about my professional development as an Informatics Engineering student at Minho's University. Discover my skills, experiences, and projects, and how they can benefit you and your business.">
 <meta property="og:locale" content="{{ site.locale | default: "en" }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
