@@ -17,7 +17,7 @@
   font-weight: bold;
   text-align: center;
   text-decoration: none;
-  background-color: black;
+  background-color: $primary-color;
   border: 0 !important;
   border-radius: $border-radius;
   cursor: pointer;
@@ -50,7 +50,7 @@
   &--inverse {
     color: $gray !important;
     border: 1px solid $dark-gray !important; /* override*/
-    background-color: #fff;
+    background-color: red;
 
     &:hover {
       color: #fff !important;
