@@ -27,6 +27,7 @@
 
     a {
       text-decoration: none;
+      color: white;
     }
   }
 }
@@ -45,11 +46,6 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
-  color: white;
-  
-  body {
-    color: white;
-  } 
 
   &--lg {
     padding-right: 2em;
