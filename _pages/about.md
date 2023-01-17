@@ -16,7 +16,7 @@ redirect_from:
 <p>&nbsp;One of the things I enjoy most about software development is the problem-solving aspect. I have had to work through a variety of challenges throughout my university studies and I've learned to think critically and come up with creative solutions to overcome obstacles.</p>
 
 ## Cybersecurity
-<p>&nbsp;Since I discovered my love for cybersecurity, I've been working to expand my understanding and improve the security of high-tech systems. I've been actively engaged in penetration testing and research since 2016, participating in platforms like TryHackMe, HackTheBox, and others. I love the thrill of discovering vulnerabilities and finding ways to fix them.</p>
+<p>&nbsp;Since I discovered my passion for cybersecurity, I've been working to expand my understanding and improve the security of high-tech systems. I've been actively engaged in penetration testing and research since 2016, participating in platforms like TryHackMe, HackTheBox, and others. I love the thrill of discovering vulnerabilities and finding ways to fix them.</p>
 
 ## Aviation
 <p>&nbsp;The integration of technology in modern aviation systems presents unique cybersecurity challenges that require a multi-disciplinary approach to address. I'm passionate about exploring the intersection of cybersecurity and aviation safety and gaining a deeper understanding of the potential threats and vulnerabilities in these systems.</p>
