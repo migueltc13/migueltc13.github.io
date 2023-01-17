@@ -27,6 +27,8 @@ redirect_from:
 ## Freelance Work
 <a>&nbsp;</a>In addition to my academic studies, I've also gained practical experience through freelance work on platforms such as Upwork, where I provided services as a Linux System Administrator, custom software development, websiste management and development, and ethical hacking. I enjoy the challenge of solving problems and creating solutions.
 
+<br>
+
 <a>&nbsp;</a>On this website, you can discover my skills, experiences, and projects, and how they can benefit you and your business. Thank you for visiting, and I look forward to connecting with you.
 
 **Warning:** this website is currently under development and unexpected behavior may occur.
