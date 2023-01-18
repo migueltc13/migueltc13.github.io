@@ -230,7 +230,7 @@ body:hover .visually-hidden button {
 
   .fa-linkedin {
     color: $linkedin-color;
-    content: "\f0e1";
+    content: "\f0e1" !important;
   }
   .fa-linkedin-square {
     color: $linkedin-color;
