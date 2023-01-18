@@ -13,7 +13,9 @@ redirect_from:
 <p>&nbsp;On this website, you can discover my skills, experiences, and projects, and how they can benefit you and your business. Thank you for visiting! Looking forward to connecting with you.</p>
 
 ## Software Development
-<p>&nbsp;As an Informatics Engineering student, I have gained a solid foundation in software development. My university education has provided me with the tools and knowledge to work on large-scale software projects in a professional setting. I have experience working with Agile development methodologies, which have taught me to work efficiently and adapt to changes in project requirements.</p>
+<p>&nbsp;As an Informatics Engineering student, I have gained a solid foundation in software development. My university education has provided me with the tools and knowledge to work on large-scale software projects in a professional setting.</p>
+
+<p>&nbsp;I have experience working with Agile development methodologies, which have taught me to work efficiently and adapt to changes in project requirements.</p>
 
 <p>&nbsp;One of the things I enjoy most about software development is the problem-solving aspect. I have had to work through a variety of challenges throughout my university studies and I've learned to think critically and come up with creative solutions to overcome obstacles.</p>
 
