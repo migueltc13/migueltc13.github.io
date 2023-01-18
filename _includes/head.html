@@ -11,14 +11,15 @@
 </script>
 
 <meta charset="utf-8">
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 
 {% include seo.html %}
 
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<!-- <meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320"> -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
