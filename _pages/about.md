@@ -10,6 +10,8 @@ redirect_from:
 
 <p>&nbsp;Welcome to my website! I'm an Informatics Engineering student at Minho’s University and I'm excited to share my professional journey with you!</p>
 
+<p>&nbsp;On this website, you can discover my skills, experiences, and projects, and how they can benefit you and your business. Thank you for visiting! Looking forward to connecting with you.</p>
+
 ## Software Development
 <p>&nbsp;As an Informatics Engineering student, I have gained a solid foundation in software development. My university education has provided me with the tools and knowledge to work on large-scale software projects in a professional setting. I have experience working with Agile development methodologies, which have taught me to work efficiently and adapt to changes in project requirements.</p>
 
@@ -25,11 +27,7 @@ redirect_from:
 <p>&nbsp;I'm also intrigued by the world of cryptocurrencies and blockchain technology. I'm always looking to expand my knowledge in this area and explore new ways to apply it to different industries.</p>
 
 ## Freelance Work
-<p>&nbsp;In addition to my academic studies, I've also gained practical experience through freelance work on platforms such as Upwork, where I provided services as a Linux System Administrator, custom software development, websiste management and development, and ethical hacking. I enjoy the challenge of solving problems and creating solutions.</p>
+<p>&nbsp;In addition to my academic studies, I've also gained practical experience through freelance work on platforms such as Upwork, where I provided services as a Linux System Administrator, custom software development, website management and development, and ethical hacking. I enjoy the challenge of solving problems and creating solutions.</p>
 
-<br>
-
-<p>&nbsp;On this website, you can discover my skills, experiences, and projects, and how they can benefit you and your business. Thank you for visiting, and I look forward to connecting with you.</p>
-
-**Warning:** this website is currently under development and unexpected behavior may occur.
-{: .notice}
+**Warning:** this website is currently under development. Unexpected behavior may occur.
+{: .notice--warning}
