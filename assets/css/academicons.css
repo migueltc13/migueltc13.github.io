@@ -142,11 +142,10 @@
 .ai-open-access-square:before {
   content: "\e839";
 }
-.ai-orcid:before {
-  content: "\e841";
-}
+.ai-orcid:before,
 .ai-orcid-square:before {
   content: "\e841";
+  color: $orcid-color;
 }
 .ai-osf:before {
   content: "\e842";
