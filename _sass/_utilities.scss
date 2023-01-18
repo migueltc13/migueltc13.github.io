@@ -228,7 +228,10 @@ body:hover .visually-hidden button {
     color: $lastfm-color;
   }
 
-  .fa-linkedin,
+  .fa-linkedin {
+    color: $linkedin-color;
+    content: "\f0e1";
+  }
   .fa-linkedin-square {
     color: $linkedin-color;
   }
