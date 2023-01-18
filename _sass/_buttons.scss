@@ -54,6 +54,7 @@
 
     &:hover {
       color: mix(#fff, #000, 65%) !important; // #fff
+      background-color: mix($primary-color, #000, 10%);
       border-color: $gray;
     }
   }
