@@ -48,7 +48,7 @@
   /* for dark backgrounds */
 
   &--inverse {
-    color: mix(#fff, #000, 80%);
+    color: mix(#fff, #000, 90%);
     border: 1px solid $dark-gray !important; /* override*/
     background-color: mix(#fff, #000, 30%);
 
