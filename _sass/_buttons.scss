@@ -48,13 +48,13 @@
   /* for dark backgrounds */
 
   &--inverse {
-    color: mix(#fff, #000, 80%) !important;
+    color: mix(#fff, #000, 80%);
     border: 1px solid $dark-gray !important; /* override*/
-    background-color: mix(#fff, #000, 20%);
+    background-color: mix(#fff, #000, 30%);
 
     &:hover {
-      color: mix(#fff, #000, 65%) !important; // #fff
-      background-color: mix($primary-color, #000, 10%);
+      color: mix(#fff, #000, 65%);
+      background-color: mix(#fff, #000, 15%);
       border-color: $gray;
     }
   }
