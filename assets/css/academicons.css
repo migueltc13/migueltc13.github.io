@@ -145,7 +145,7 @@
 .ai-orcid:before,
 .ai-orcid-square:before {
   content: "\e840";
-  color: $orcid-color;
+  color: #c8f357;
 }
 .ai-osf:before {
   content: "\e842";
