@@ -38,6 +38,10 @@
     font-size: $type-size-5;
   }
 
+  h3 {
+    white-space: nowrap;
+  }
+
   p, li {
     font-family: $sans-serif;
     font-size: $type-size-6;
