@@ -310,14 +310,10 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
+
 # HTML Compression
 # - http://jch.penibelst.de/
 compress_html:
   clippings: all
-  comments: all
-  endings: all
-  profile: true
-  blanklines: true
-  startings: [head, body]
   ignore:
     envs: development
