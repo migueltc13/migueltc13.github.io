@@ -7,8 +7,10 @@
 {% assign seo_url = seo_url | default: site.github.url %}
 
 {% if page.title %}
+<!--
   {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
 {% elsif page.title and page.author_profile == true %}
+-->
   {% assign seo_title = "Miguel Carvalho's Personal Website" %}
 {% endif %}
 
