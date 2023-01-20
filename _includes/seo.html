@@ -6,13 +6,13 @@
 {% endif %}
 {% assign seo_url = seo_url | default: site.github.url %}
 
-{% if page.title %}
 <!--
+{% if page.title %}
   {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
-{% elsif page.title and page.author_profile == true %}
+//{% elsif page.title and page.author_profile == true %}
+{% endif %}
 -->
   {% assign seo_title = "Miguel Carvalho's Personal Website" %}
-{% endif %}
 
 {% if seo_title %}
   {% assign seo_title = seo_title | markdownify | strip_html | strip_newlines | escape_once %}
