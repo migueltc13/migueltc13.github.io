@@ -17,6 +17,7 @@ Education
 Work experience
 ======
 TODO
+
 <!--
 * Summer 2015: Research Assistant
   * Github University
@@ -32,6 +33,7 @@ TODO
 Skills
 ======
 TODO
+
 <!--
 * Skill 1
 * Skill 2
@@ -44,6 +46,7 @@ TODO
 Publications
 ======
 TODO
+
 <!--
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
