@@ -1,0 +1,19 @@
+---
+title: "2020 DEF CON Safe Mode"
+collection: talks
+type: "Talk"
+permalink: /talks/DEF-CON-safe-mode
+venue:
+date: 2020-08-09
+location: "Online"
+---
+
+<h2>2020 DEF CON Safe Mode</h2>
+
+<p>&nbsp;DEF CON Safe Mode was a truly unique experience for me as an aspiring developer. With the in-person DEF CON conference being cancelled due to the pandemic, the virtual event provided a great alternative. It was amazing to be able to attend talks and workshops from leading security experts and researchers from the comfort of my own home.</p>
+
+<p>&nbsp;One of the things I enjoyed most about DEF CON Safe Mode was the diversity of topics covered. I had the opportunity to learn about hacking, artificial intelligence and privacy, among many other areas. The talks and workshops were not just theoretical, they were also very practical. I was able to learn new skills and techniques that I could apply in my own work.</p>
+
+<p>&nbsp;But the best part of DEF CON Safe Mode was the chance to connect with other like-minded individuals. As an aspiring DevOps, it's so valuable to have a strong network of colleagues and mentors to turn to for advice and support. The interactive events, like the virtual CTF, were not just fun but also gave us the opportunity to interact with other attendees.</p>
+
+<p>&nbsp;All in all, DEF CON Safe Mode was a truly enriching experience for me. I felt like I learned a lot and also made some great connections in the field. It was a valuable opportunity that I wouldn't have wanted to miss.</p>
