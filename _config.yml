@@ -5,15 +5,8 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-
-# Plugins
-#plugins:
-#  - jekyll-remote-theme
-#remote_theme             : "mmistakes/minimal-mistakes"
-#minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
 # Site Settings
-locale                   : "en-US"
+locale                   : "pt-PT"
 title                    : "Miguel's Personal Website"
 title_separator          : "-"
 name                     : &name "Miguel Carvalho"
@@ -146,7 +139,6 @@ exclude:
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
-  #- assets/css
   - config
   - gulpfile.js
   - log
@@ -263,7 +255,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Lisbon # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
@@ -315,5 +307,7 @@ tag_archive:
 # - http://jch.penibelst.de/
 compress_html:
   clippings: all
-  ignore:
-    envs: development
+  comments: all
+  endings: all
+  profile: true
+  startings: [head, body]
