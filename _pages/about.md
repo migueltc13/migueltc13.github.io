@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Whoami: Exploring My Technical Background and Interests"
+title: "Whoami: Background and Interests"
 author_profile: true
 redirect_from: 
   - /about/
