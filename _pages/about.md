@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "About me"
+title: "Who am I?"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-<p>&nbsp;Welcome to my website! I'm an Informatics Engineering student at Minho’s University and I'm excited to share my professional journey with you!</p>
+<p>&nbsp;Welcome to my website! I'm Miguel Carvalho, an Informatics Engineering student at Minho’s University and I'm excited to share my professional journey with you!</p>
 
 <p>&nbsp;On this website, you can discover my skills, experiences, and projects, and how they can benefit you and your business. Thank you for visiting! Looking forward to connecting with you.</p>
 
