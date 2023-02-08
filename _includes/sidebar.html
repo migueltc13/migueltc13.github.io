@@ -6,17 +6,13 @@
   {% if page.sidebar %}
     {% for s in page.sidebar %}
       {% if s.image %}
-        {% if page.path == "/portfolio/tryhackme/" %}
-          <img src="{{ "/images/profile_thm.png" | prepend: base_path }}" alt="New Image">
+        <img src=
+        {% if s.image contains "://" %}
+          "{{ s.image }}"
         {% else %}
-          <img src=
-          {% if s.image contains "://" %}
-            "{{ s.image }}"
-          {% else %}
-            "{{ s.image | prepend: "/images/" | prepend: base_path }}"
-          {% endif %}
-        alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
+          "{{ s.image | prepend: "/images/" | prepend: base_path }}"
         {% endif %}
+        alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
       {% endif %}
       {% if s.title %}<div style="{white-space: nowrap;}"><h3>{{ s.title }}</h3></div>{% endif %}
       {% if s.text %}{{ s.text | markdownify }}{% endif %}
