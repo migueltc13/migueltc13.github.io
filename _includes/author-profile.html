@@ -6,9 +6,9 @@
 
 <div itemscope itemtype="http://schema.org/Person">
 
-  <div class="author__avatar">
+  <div class="author__avatar" {% if page.path == "_portfolio/2023-01-15-tryhackme.md" %}align="center"{% endif %}>
     {% if page.path == "_portfolio/2023-01-15-tryhackme.md" %}
-      <img src="{{ "/images/profile_thm.png" | prepend: base_path }}" align="center" alt="Hidden">
+      <img src="{{ "/images/profile_thm.png" | prepend: base_path }}" alt="Hidden">
     {% else %}
       {% if author.avatar contains "://" %}
         <img src="{{ author.avatar }}" alt="{{ author.name }}">
