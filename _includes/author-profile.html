@@ -19,13 +19,8 @@
   </div>
 
   <div class="author__content">
-    {% if page.path == "_portfolio/2023-01-15-tryhackme.md" %}
-      <h3 class="author__name">z0d1ac</h3>
-      {% if author.bio %}<p class="author__bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>{% endif %}
-    {% else %}
-      <h3 class="author__name">{{ author.name }}</h3>
-      {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
-    {% endif %}
+    <h3 class="author__name">{{ author.name }}</h3>
+    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
@@ -128,11 +123,6 @@
         {% if author.wikipedia %}
           <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
         {% endif %}
-      </ul>
-    {% else %}
-      <button class="btn btn--inverse">Follow</button>
-      <ul class="author__urls social-icons">
-          <li><i class="fa fa-fw fa-map-marker-alt" aria-hidden="true"></i> Unknown</li>
       </ul>
     {% endif %}
   </div>
