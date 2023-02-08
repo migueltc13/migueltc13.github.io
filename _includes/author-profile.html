@@ -19,8 +19,13 @@
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if page.path == "_portfolio/2023-01-15-tryhackme.md" %}
+      <h3 class="author__name">z0d1ac</h3>
+      {% if author.bio %}<p class="author__bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>{% endif %}
+    {% else %}
+      <h3 class="author__name">{{ author.name }}</h3>
+      {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% endif %}
   </div>
 
   <div class="author__urls-wrapper">
