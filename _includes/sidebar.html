@@ -6,6 +6,9 @@
   {% if page.sidebar %}
     {% for s in page.sidebar %}
       {% if s.image %}
+        {% if page.path == "portfolio/tryhackme/" %}
+          <img src="{{ "/images/profile_thm.png" | prepend: base_path }}" alt="New Image">
+        {% else %}
         <img src=
         {% if s.image contains "://" %}
           "{{ s.image }}"
