@@ -129,6 +129,12 @@
           <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
         {% endif %}
       </ul>
+    {% else %}
+      <ul class="author__urls social-icons">
+        {% if author.location %}
+          <li><i class="fa fa-fw fa-map-marker-alt" aria-hidden="true"></i> Unknown</li>
+        {% endif %}
+      </ul>
     {% endif %}
   </div>
 </div>
