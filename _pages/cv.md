@@ -15,8 +15,7 @@ Education
 
 Work experience
 ======
-* Linux System Administrator, Upwork freelancing, Late 2022 - Early 2023
-  * [Upwork profile](https://www.upwork.com/freelancers/~01b67be7638198db56)
+* Linux System Administrator, Upwork freelancing, Late 2022 - Early 2023 ([Upwork profile](https://www.upwork.com/freelancers/~01b67be7638198db56))
 
 <!--
 * Fall 2015: Research Assistant
@@ -27,9 +26,9 @@ Work experience
 
 Skills
 ======
+* Problem solving
 * Computer systems and architecture
 * Algorithms and computational complexity
-* Problem solving
 * Databases and data structures
 * Agile software development methodologies
 * Web development
