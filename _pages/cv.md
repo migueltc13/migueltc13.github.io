@@ -9,12 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
+## Education
 * B.S. in Informatics Engineering, Minho's University, Mid 2024 (expected)
 
-Work experience
-======
+## Work experience
 * Linux System Administrator, Upwork freelancing, Late 2022 - Early 2023 ([Upwork profile](https://www.upwork.com/freelancers/~01b67be7638198db56))
 
 <!--
@@ -24,8 +22,7 @@ Work experience
   * Supervisor: Professor Hub
 -->
 
-Skills
-======
+## Skills
 * Problem-solving
 * Computer systems and architecture
 * Algorithms and computational complexity
@@ -38,8 +35,7 @@ Skills
   * Portuguese (Native proficiency)
   * English (Full professional proficiency)
 
-Programming Languages
-======
+## Programming Languages
 * Python
 * C/C++
 * Bash
@@ -48,27 +44,23 @@ Programming Languages
 * HTML, CSS, and JavaScript
 * Java
 
-Tools
-======
+## Tools
 * [Git](https://git-scm.com/) for version control
 * [Docker](https://www.docker.com/) for containerization and deployment
 * Agile project management tools ([Jira](https://www.atlassian.com/software/jira))
 * Cloud computing platforms ([AWS](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com/), [Digital Ocean](https://www.digitalocean.com/))
 
-Portfolio
-======
+## Portfolio
 <ul>{% for post in site.portfolio %}
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
 
-Talks
-======
+## Talks
 <ul>{% for post in site.talks %}
   {% include archive-single-talk-cv.html %}
 {% endfor %}</ul>
 
-Personal Interests
-======
+## Personal Interests
 * Chess enthusiast
 * Cybersecurity and penetration testing
 * Participating in Capture the Flag (CTF) competitions
