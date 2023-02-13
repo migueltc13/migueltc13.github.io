@@ -6,8 +6,8 @@
 
 <div itemscope itemtype="http://schema.org/Person">
 
-  <div class="author__avatar" {% if page.path == "_portfolio/2023-01-15-tryhackme.md" %}align="center"{% endif %}>
-    {% if page.path == "_portfolio/2023-01-15-tryhackme.md" %}
+  <div class="author__avatar" {% if page.path == "_talks/2023-01-15-tryhackme.md" %}align="center"{% endif %}>
+    {% if page.path == "_talks/2023-01-15-tryhackme.md" %}
       <img src="{{ "/images/profile_thm.png" | prepend: base_path }}" alt="Hidden">
     {% else %}
       {% if author.avatar contains "://" %}
@@ -18,8 +18,8 @@
     {% endif %}
   </div>
   
-  <div class="author__content" {% if page.path == "_portfolio/2023-01-15-tryhackme.md" %}align="center"{% endif %}>
-    {% if page.path == "_portfolio/2023-01-15-tryhackme.md" %}
+  <div class="author__content" {% if page.path == "_talks/2023-01-15-tryhackme.md" %}align="center"{% endif %}>
+    {% if page.path == "_talks/2023-01-15-tryhackme.md" %}
       <h3 class="author__name">z0d1ac</h3>
     {% else %}
       <h3 class="author__name">{{ author.name }}</h3>
@@ -28,7 +28,7 @@
   </div>
 
   <div class="author__urls-wrapper">
-    {% if page.path != "_portfolio/2023-01-15-tryhackme.md" %}
+    {% if page.path != "_talks/2023-01-15-tryhackme.md" %}
       <button class="btn btn--inverse">Follow</button>
       <ul class="author__urls social-icons">
         {% if author.location %}
