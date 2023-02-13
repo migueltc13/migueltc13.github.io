@@ -35,7 +35,7 @@ redirect_from:
   * Portuguese (Native proficiency)
   * English (Full professional proficiency)
 
-## Programming Languages
+## Programming languages
 * Python
 * C/C++
 * Bash
@@ -60,7 +60,7 @@ redirect_from:
   {% include archive-single-talk-cv.html %}
 {% endfor %}</ul>
 
-## Personal Interests
+## Personal interests
 * Chess enthusiast
 * Cybersecurity and penetration testing
 * Participating in Capture the Flag (CTF) competitions
