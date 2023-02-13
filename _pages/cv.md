@@ -26,7 +26,7 @@ Work experience
 
 Skills
 ======
-* Problem solving
+* Problem-solving
 * Computer systems and architecture
 * Algorithms and computational complexity
 * Databases and data structures
@@ -45,7 +45,7 @@ Programming Languages
 * Bash
 * Haskell
 * PHP
-* HTML, CSS and Javascript
+* HTML, CSS, and JavaScript
 * Java
 
 Tools
