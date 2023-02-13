@@ -27,24 +27,53 @@ Work experience
 
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Computer systems and architecture
+* Algorithms and computational complexity
+* Problem solving
+* Databases and data structures
+* Agile software development methodologies
+* Web development
+* Network and security protocols
+* Continuous learning mindset, open to new challenges
+* Strong communication skills
+  * Portuguese (Native proficiency)
+  * English (Full professional proficiency)
+
+Programming Languages
+======
+* Python
+* C/C++
+* Bash
+* Haskell
+* PHP
+* HTML, CSS and Javascript
+* Java
+
+Tools
+======
+* [Git](https://git-scm.com/) for version control
+* [Docker](https://www.docker.com/) for containerization and deployment
+* Agile project management tools ([Jira](https://www.atlassian.com/software/jira))
+* Cloud computing platforms ([AWS](https://aws.amazon.com/), [Google Cloud](https://cloud.google.com/), [Digital Ocean](https://www.digitalocean.com/))
 
 Portfolio
 ======
-  <ul>{% for post in site.portfolio %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+<ul>{% for post in site.portfolio %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
 
 Talks
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+<ul>{% for post in site.talks %}
+  {% include archive-single-talk-cv.html %}
+{% endfor %}</ul>
+
+Personal Interests
+======
+* Chess enthusiast
+* Cybersecurity and penetration testing
+* Participating in Capture the Flag (CTF) competitions
+* Attending hackathons
 
 <!--
 Publications
