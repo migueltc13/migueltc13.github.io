@@ -30,7 +30,9 @@ redirect_from:
 ## Freelance Work
 <p>&nbsp;In addition to my academic studies, I've also gained practical experience through freelance work on platforms such as Upwork, where I provided services as a Linux System Administrator, custom software development, website management and development, and ethical hacking. I enjoy the challenge of solving problems and creating solutions.</p>
 
-<iframe src="https://github.com/sponsors/migueltc13/card" title="Sponsor migueltc13" width="100%" style="border: 1;"></iframe>
+<div align="center">
+  <iframe src="https://github.com/sponsors/migueltc13/card" title="Sponsor migueltc13" width="547.5" style="border: 1;"></iframe>
+</div>
 
 <!--
 <br>
