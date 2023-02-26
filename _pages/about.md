@@ -1,11 +1,15 @@
 ---
 permalink: /
-title: "<p><span title='The \"whoami\" command is a Linux tool that shows the current user's username. It's pronounced \"who am I\"'><ins>Whoami</ins></span>: Background and Interests</p>"
+title: "Whoami: Background and Interests"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+<!--
+<p><span title='The \"whoami\" command is a Linux tool that shows the current user's username. It's pronounced \"who am I\"'><ins>Whoami</ins></span>: Background and Interests</p>
+-->
 
 <p>&nbsp;Welcome to my website! I'm Miguel Carvalho, an Informatics Engineering student at Minho’s University and I'm excited to share my professional journey with you!</p>
 
