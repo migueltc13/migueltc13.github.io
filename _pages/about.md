@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Whoami: Background and Interests"
+title: "<span title='The \"whoami\" command is a Linux tool that shows the current user's username. It's pronounced \"who am I\"'><ins>Whoami</ins></span>: Background and Interests"
 author_profile: true
 redirect_from: 
   - /about/
