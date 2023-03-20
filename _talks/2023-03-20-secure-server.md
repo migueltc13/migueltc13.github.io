@@ -13,12 +13,14 @@ Securing a server by implementing various measures to protect it from unauthoriz
 ### 1. Enable automatic updates
 
 `apt install unattended-upgrades`
+
 `dpkg-reconfigure --priority=low unattended-upgrades`
 
 
 ### 2. Lower privileges users
 
 `adduser <USERNAME>`
+
 `usermod -aG sudo <USERNAME>`
 
 Tip: restrict yourself to the necessary privileges when connected to your server.
@@ -60,9 +62,13 @@ or
 ### 5. Enable firewall
 
 `sudo ss -tupln`
+
 `sudo apt install ufw`
+
 `sudo ufw allow <SSH_PORT> ...`
+
 `sudo ufw enable`
+
 `sudo ufw status`
 
 
@@ -130,6 +136,7 @@ One popular WAF for Linux is ModSecurity. To install ModSecurity and the Apache 
 Then, enable the module and restart Apache:
 
 `sudo a2enmod mod-security`
+
 `sudo systemctl restart apache2`
 
 You'll also need to create a configuration file for ModSecurity. The default configuration file is located at `/etc/modsecurity/modsecurity.conf`, but you may want to create a separate file for your site's specific rules.
