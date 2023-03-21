@@ -12,16 +12,18 @@ Securing a server by implementing various measures to protect it from unauthoriz
 
 ### 1. Enable automatic updates
 
-`apt install unattended-upgrades`
-
-`dpkg-reconfigure --priority=low unattended-upgrades`
+```
+apt install unattended-upgrades
+dpkg-reconfigure --priority=low unattended-upgrades
+```
 
 
 ### 2. Lower privileges users
 
-`adduser <USERNAME>`
-
-`usermod -aG sudo <USERNAME>`
+```
+adduser <USERNAME>
+usermod -aG sudo <USERNAME>
+```
 
 Tip: restrict yourself to the necessary privileges when connected to your server.
 
@@ -30,70 +32,86 @@ Tip: restrict yourself to the necessary privileges when connected to your server
 
 (On server)
 
-`mkdir ~/.ssh && chmod 700 ~/.ssh`
+```
+mkdir ~/.ssh && chmod 700 ~/.ssh
+```
 
 (On local machine)
 
 To generate the RSA key pair run:
 
-`ssh-keygen -b 4096`
+```
+ssh-keygen -b 4096
+```
 
 Copy the public key to your server with:
 
-`ssh-copy-id <USERNAME>@<IP>`
-
-or
-
-`scp ~/.ssh/id_rsa.pub <USERNAME>@<IP>`
+```
+ssh-copy-id <USERNAME>@<IP>
+[or]
+scp ~/.ssh/id_rsa.pub <USERNAME>@<IP>
+```
 
 
 ### 4. Lock down password logins
 
-`sudo nano /etc/ssh/sshd_config`
+```
+sudo nano /etc/ssh/sshd_config
+```
 
 - a) Change “Port”
 - b) Change to “AddressFamily inet” (ipv4 only)
 - c) “PermitRootLogin no”
 - d) “PasswordAuthentication no”
 
-`sudo systemctl restart sshd`
+```
+sudo systemctl restart sshd
+```
 
 
 ### 5. Enable firewall
 
-`sudo ss -tupln`
-
-`sudo apt install ufw`
-
-`sudo ufw allow <SSH_PORT> ...`
-
-`sudo ufw enable`
-
-`sudo ufw status`
+```
+sudo ss -tupln
+sudo apt install ufw
+sudo ufw allow <SSH_PORT> ...
+sudo ufw enable
+sudo ufw status
+```
 
 
 ### 6. Block pings
 
-`sudo nano /etc/ufw/before.rules`
+```
+sudo nano /etc/ufw/before.rules
+```
 
 Add this line to “ok icmp codes for INPUT”:
 
-`-A ufw-before-input -p icmp --icmp-type echo-request -j DROP`
+```
+-A ufw-before-input -p icmp --icmp-type echo-request -j DROP
+```
 
-`sudo ufw reload` or `sudo reboot`
+```
+sudo ufw reload` or `sudo reboot
+```
 
 
 ### 7. Disable unused services and ports
 
 Check which services and ports are currently open on your server by running:
 
-`sudo netstat -tulpn`
+```
+sudo netstat -tulpn
+```
 
 Then, disable any unused services and ports by editing the appropriate configuration files.
 
 For example, if you're not using FTP, you can disable it by commenting out the following line in the `/etc/ssh/sshd_config` file:
 
-`#Subsystem sftp /usr/lib/openssh/sftp-server`
+```
+#Subsystem sftp /usr/lib/openssh/sftp-server
+```
 
 Make sure to restart any services you've disabled.
 
@@ -102,7 +120,9 @@ Make sure to restart any services you've disabled.
 
 Fail2ban is a popular tool for preventing brute-force attacks on your server. It monitors your server's logs and blocks IP addresses that repeatedly fail authentication attempts. To install fail2ban, run:
 
-`sudo apt install fail2ban`
+```
+sudo apt install fail2ban
+```
 
 Then, create a new configuration file for your service.
 
@@ -122,7 +142,9 @@ This configuration will block any IP address that fails to authenticate more tha
 
 Finally, restart fail2ban to apply the new configuration:
 
-`sudo systemctl restart fail2ban`
+```
+sudo systemctl restart fail2ban
+```
 
 
 ### 9. Install and configure a web application firewall (WAF)
@@ -131,13 +153,16 @@ If you're running a web server, it's a good idea to install a WAF to protect you
 
 One popular WAF for Linux is ModSecurity. To install ModSecurity and the Apache module, run:
 
-`sudo apt install libapache2-modsecurity`
+```
+sudo apt install libapache2-modsecurity
+```
 
 Then, enable the module and restart Apache:
 
-`sudo a2enmod mod-security`
-
-`sudo systemctl restart apache2`
+```
+sudo a2enmod mod-security
+sudo systemctl restart apache2
+```
 
 You'll also need to create a configuration file for ModSecurity. The default configuration file is located at `/etc/modsecurity/modsecurity.conf`, but you may want to create a separate file for your site's specific rules.
 
