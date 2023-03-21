@@ -59,10 +59,10 @@ scp ~/.ssh/id_rsa.pub <USERNAME>@<IP>
 sudo nano /etc/ssh/sshd_config
 ```
 
-- a) Change “Port”
-- b) Change to “AddressFamily inet” (ipv4 only)
-- c) “PermitRootLogin no”
-- d) “PasswordAuthentication no”
+- Change `Port 22`
+- Change to `AddressFamily inet` (ipv4 only)
+- `PermitRootLogin no`
+- `PasswordAuthentication no`
 
 ```
 sudo systemctl restart sshd
@@ -88,9 +88,8 @@ sudo nano /etc/ufw/before.rules
 
 Add this line to “ok icmp codes for INPUT”:
 
-```
--A ufw-before-input -p icmp --icmp-type echo-request -j DROP
-```
+
+- `-A ufw-before-input -p icmp --icmp-type echo-request -j DROP`
 
 ```
 sudo ufw reload` or `sudo reboot
