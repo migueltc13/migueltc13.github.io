@@ -8,7 +8,9 @@ date: 2023-03-20
 location: "Online"
 ---
 
-Securing a server by implementing various measures to protect it from unauthorized access and potential cyber-attacks. In this guide, we will go through ten important steps to harden a Linux server. By following these steps, you can significantly increase the security of your Linux server and minimize the risk of a security breach.
+Securing a server by implementing various measures to protect it from unauthorized access and potential cyber-attacks. In this guide, we will go through ten important steps to harden a Linux server.
+
+By following these steps, you can significantly increase the security of your Linux server and minimize the risk of a security breach.
 
 ### 1. Enable automatic updates
 
